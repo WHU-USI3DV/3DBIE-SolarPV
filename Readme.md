@@ -18,7 +18,7 @@ The part on building extraction using unsupervised domain adapation utilized our
 <strong>City-scale solar PV potential estimation on 3D buildings using multi-source RS data:<br/> A case study in Wuhan, China</strong>
 </p>
 <div align=center>
-<img src="media/teaser.png" alt="Framework" style="zoom:30%" align='middle'>
+<img src="teaser.png" alt="Network" style="zoom:30%" align='middle'>
 </div>
 
 <p align="justify">
@@ -109,11 +109,11 @@ conda activate BHD
 pip install matplotlib tqdm gdal argparse opencv-python
 ```
 
-## 💾 Dataset 
+### 💾 Dataset 
 The DSM with global coverage of 30m resolution is accessible in [Japan Aerospace Exploration Agency  Earth Observation Research Center](https://www.eorc.jaxa.jp/ALOS/en/aw3d30/data/index.htm).
 
 
-## 🔦 Usage
+### 🔦 Usage
 To eval FreeReg on three benchmarks, you can use the following commands:
 ```
 python BH_ExtractionFromAW3D30.py --input_path AW3D30_WH.tif --output_path BH_WH.tif
