@@ -18,7 +18,7 @@ The part on building extraction using unsupervised domain adapation utilized our
 <strong>City-scale solar PV potential estimation on 3D buildings using multi-source RS data:<br/> A case study in Wuhan, China</strong>
 </p>
 <div align=center>
-<img src="teaser.png" alt="Network" style="zoom:30%" align='middle'>
+<img src="media/teaser.png" alt="Network" style="zoom:30%" align='middle'>
 </div>
 
 <p align="justify">
