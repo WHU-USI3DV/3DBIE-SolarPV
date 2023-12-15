@@ -2,7 +2,7 @@
 <a href="https://github.com/WHU-USI3DV/3DBIE-SolarPV/" target="_blank">City-scale solar PV potential estimation on 3D buildings using multi-source RS data: A case study in Wuhan, China</a>
 </h2>
 
-This is the PyTorch implementation of the following publication:
+This is the PyTorch implementation about building information extraction of the following publication:
 
 > **City-scale solar PV potential estimation on 3D buildings using multi-source RS data: A case study in Wuhan, China**<br/>
 > [Zhe Chen](https://github.com/ChenZhe-Code), [Bisheng Yang](https://3s.whu.edu.cn/info/1025/1415.htm), [Rui Zhu](https://felix-rz.github.io/), [Zhen Dong](https://dongzhenwhu.github.io/index.html)<br/>
