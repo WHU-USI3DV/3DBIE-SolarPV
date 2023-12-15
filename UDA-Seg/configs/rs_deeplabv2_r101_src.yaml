@@ -1,0 +1,19 @@
+MODEL:
+  NAME: "deeplab_resnet101"
+  WEIGHTS: 'https://download.pytorch.org/models/resnet101-5d3b4d8f.pth'
+  FREEZE_BN: True
+  NUM_CLASSES: 2
+DATASETS:
+  SOURCE_TRAIN: "sh_wv2_train"
+  TEST: "sh_wv2_test"
+INPUT:
+  SOURCE_INPUT_SIZE_TRAIN: (650, 650)
+  INPUT_SIZE_TEST: (650, 650)
+ SOURCE_PIXEL_MEAN: [272.6624, 411.2164, 324.6559] # sh_wv2
+ SOURCE_PIXEL_STD: [75.7286, 79.2559, 53.9621]  # sh_wv2
+  INPUT_SCALES_TRAIN: (0.0, 0.0)
+SOLVER:
+  BASE_LR: 5e-4
+  MAX_ITER: 41250
+  STOP_ITER: 30000
+  BATCH_SIZE: 6
