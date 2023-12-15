@@ -18,7 +18,7 @@ The part on building extraction using unsupervised domain adapation utilized our
 <strong>City-scale solar PV potential estimation on 3D buildings using multi-source RS data:<br/> A case study in Wuhan, China</strong>
 </p>
 <div align=center>
-<img src="teaser.png" alt="Network" style="zoom:40%" align='middle'>
+<img src="teaser.png" alt="Network" style="zoom:30%" align='middle'>
 </div>
 
 <p align="justify">
@@ -67,7 +67,7 @@ Specially, supervised training on labeled source domain data is needed to initia
 # Set the num of GPUs, for example, 2 GPUs
 export NGPUS=2
 # train on source data
-python -m torch.distributed.launch --nproc_per_node=$NGPUS train_src.py -cfg configs/configs/rs_deeplabv2_r101_src.yaml OUTPUT_DIR results/src_r101_try/
+python -m torch.distributed.launch --nproc_per_node=$NGPUS train_src.py -cfg configs/rs_deeplabv2_r101_src.yaml OUTPUT_DIR results/src_r101_try/
 ```
 Then, we conduct the unlabeled target domain data and labeled source domain data for adversarial training to carry out domain adaptation.
 ```
