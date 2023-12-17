@@ -137,3 +137,4 @@ Please consider citing our works if this program benefits your project.
 ## 🔗 Related Projects
 We sincerely thank the excellent project:
 - [FADA](https://github.com/JDAI-CV/FADA) for UDA semantic segmentation;
+- [FreeReg](https://github.com/WHU-USI3DV/FreeReg) for readme template.
