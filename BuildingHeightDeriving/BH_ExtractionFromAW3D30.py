@@ -118,7 +118,7 @@ def extract_nDSM(args):
             window_subset = tif_data[i-window_len:i+window_len+1, j-window_len:j+window_len+1]
             window_max = np.max(window_subset.flatten())
             # window_min = np.min(window_subset.flatten())
-            window_min_group = np.sort(window_subset.flatten())[0:25]
+            window_min_group = np.sort(window_subset.flatten())[0:10]
 
             # Remove outliers
             group_mean = np.mean(window_min_group)
@@ -201,9 +201,8 @@ def main():
         "--use_kerner", default=False, type = bool
     )
     args = parser.parse_args()
-
     extract_nDSM(args)
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()
