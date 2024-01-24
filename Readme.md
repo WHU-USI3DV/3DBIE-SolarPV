@@ -6,7 +6,7 @@ This is the PyTorch implementation about building information extraction of the 
 
 > **City-scale solar PV potential estimation on 3D buildings using multi-source RS data: A case study in Wuhan, China**<br/>
 > [Zhe Chen](https://github.com/ChenZhe-Code), [Bisheng Yang](https://3s.whu.edu.cn/info/1025/1415.htm), [Rui Zhu](https://felix-rz.github.io/), [Zhen Dong](https://dongzhenwhu.github.io/index.html)<br/>
-> [**Paper**](https://doi.org/10.1016/j.jag.2022.103107)  *Applied Energy Under Review*<br/>
+> [**Paper**](https://doi.org/10.1016/j.jag.2022.103107)  *Applied Energy 2024*<br/>
 
 The part on building extraction using unsupervised domain adapation utilized our another work:
 > **Joint alignment of the distribution in input and feature space for cross-domain aerial image semantic segmentation**<br/>
@@ -27,6 +27,7 @@ Assessing the solar photovoltaic (PV) potential on buildings is essential for en
 </p>
 
 ## 🆕 News
+- 2024-01-21:  Accepted by Applied Energy! 🎉🎉🎉
 - 2023-12-15: Code is aviliable! 🎉
 
 
