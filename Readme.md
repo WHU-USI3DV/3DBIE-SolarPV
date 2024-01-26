@@ -8,7 +8,7 @@ This is the PyTorch implementation about building information extraction of the 
 > [Zhe Chen](https://github.com/ChenZhe-Code), [Bisheng Yang](https://3s.whu.edu.cn/info/1025/1415.htm), [Rui Zhu](https://felix-rz.github.io/), [Zhen Dong](https://dongzhenwhu.github.io/index.html)<br/>
 > [**Paper**](https://doi.org/10.1016/j.jag.2022.103107)  *Applied Energy 2024*<br/>
 
-The part on building extraction using unsupervised domain adapation utilized our another work:
+The part on building extraction using unsupervised domain adapation based on our another work:
 > **Joint alignment of the distribution in input and feature space for cross-domain aerial image semantic segmentation**<br/>
 > [Zhe Chen](https://github.com/ChenZhe-Code), [Bisheng Yang](https://3s.whu.edu.cn/info/1025/1415.htm), [Ailong Ma](http://jszy.whu.edu.cn/maailong/zh_CN/index.htm), Mingjun Peng, Haiting Li, Tao Chen, [Chi Chen](https://3s.whu.edu.cn/info/1025/1364.htm), [Zhen Dong](https://dongzhenwhu.github.io/index.html)<br/>
 > [**Paper**](https://doi.org/10.1016/j.jag.2022.103107)  *JAG 2022*<br/>
