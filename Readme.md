@@ -6,7 +6,7 @@ This is the PyTorch implementation about building information extraction of the 
 
 > **City-scale solar PV potential estimation on 3D buildings using multi-source RS data: A case study in Wuhan, China**<br/>
 > [Zhe Chen](https://github.com/ChenZhe-Code), [Bisheng Yang](https://3s.whu.edu.cn/info/1025/1415.htm), [Rui Zhu](https://felix-rz.github.io/), [Zhen Dong](https://dongzhenwhu.github.io/index.html)<br/>
-> [**Paper**](https://doi.org/10.1016/j.jag.2022.103107)  *Applied Energy 2024*<br/>
+> [**Paper**](https://doi.org/10.1016/j.apenergy.2024.122720)  *Applied Energy 2024*<br/>
 
 The part on building extraction using unsupervised domain adapation based on our another work:
 > **Joint alignment of the distribution in input and feature space for cross-domain aerial image semantic segmentation**<br/>
@@ -124,15 +124,31 @@ python BH_ExtractionFromAW3D30.py --input_path AW3D30_WH.tif --output_path BH_WH
 If you find this repo helpful, please give us a 😍 star 😍.
 Please consider citing our works if this program benefits your project.
 ```
-@article{chen2022joint,
-  title={Joint alignment of the distribution in input and feature space for cross-domain aerial image semantic segmentation},
-  author={Chen, Zhe and Yang, Bisheng and Ma, Ailong and Peng, Mingjun and Li, Haiting and Chen, Tao and Chen, Chi and Dong, Zhen},
-  journal={International Journal of Applied Earth Observation and Geoinformation},
-  volume={115},
-  pages={103107},
-  year={2022},
-  publisher={Elsevier}
+@article{CHEN2024122720,
+  title = {City-Scale Solar {{PV}} Potential Estimation on {{3D}} Buildings Using Multi-Source {{RS}} Data: {{A}} Case Study in {{Wuhan}}, {{China}}},
+  author = {Chen, Zhe and Yang, Bisheng and Zhu, Rui and Dong, Zhen},
+  year = {2024},
+  journal = {Applied Energy},
+  volume = {359},
+  pages = {122720},
+  issn = {0306-2619},
+  doi = {10.1016/j.apenergy.2024.122720}
 }
+
+@article{chenJointAlignmentDistribution2022,
+  title = {Joint Alignment of the Distribution in Input and Feature Space for Cross-Domain Aerial Image Semantic Segmentation},
+  author = {Chen, Zhe and Yang, Bisheng and Ma, Ailong and Peng, Mingjun and Li, Haiting and Chen, Tao and Chen, Chi and Dong, Zhen},
+  year = {2022},
+  month = dec,
+  journal = {International Journal of Applied Earth Observation and Geoinformation},
+  volume = {115},
+  pages = {103107},
+  issn = {1569-8432},
+  doi = {10.1016/j.jag.2022.103107},
+  urldate = {2022-12-02},
+  langid = {english}
+}
+
 ```
 
 ## 🔗 Related Projects
