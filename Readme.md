@@ -115,7 +115,7 @@ The DSM with global coverage of 30m resolution is accessible in [Japan Aerospace
 
 
 ### 🔦 Usage
-To eval FreeReg on three benchmarks, you can use the following commands:
+To derive the building height from global DSM, you can use the following commands:
 ```
 python BH_ExtractionFromAW3D30.py --input_path AW3D30_WH.tif --output_path BH_WH.tif
 ```
