@@ -1,7 +1,4 @@
 import os
-from .cityscapes import cityscapesDataSet
-from .cityscapes_self_distill import cityscapesSelfDistillDataSet
-from .gta5 import GTA5DataSet
 from .sh_wv2 import sh_wv2_Dataset
 from .wh_wv2 import wh_wv2_Dataset
 from .vegas_wv2 import vegas_wv2_Dataset
