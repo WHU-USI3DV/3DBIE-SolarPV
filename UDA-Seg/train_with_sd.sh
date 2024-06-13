@@ -1,6 +1,6 @@
 export NGPUS=2
 # train on source data
-python -m torch.distributed.launch --nproc_per_node=$NGPUS train_src.py -cfg configs/configs/rs_deeplabv2_r101_src.yaml OUTPUT_DIR results/src_r101_try/
+python -m torch.distributed.launch --nproc_per_node=$NGPUS train_src.py -cfg configs/rs_deeplabv2_r101_src.yaml OUTPUT_DIR results/src_r101_try/
 
 # # train with fine-grained adversarial alignment （FGDAL）
 # python -m torch.distributed.launch --nproc_per_node=$NGPUS train_adv.py -cfg configs/rs_deeplabv2_r101_adv.yaml OUTPUT_DIR results/adv_test resume results/src_r101_try/model_iter020000.pth
